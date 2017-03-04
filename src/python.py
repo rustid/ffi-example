@@ -11,10 +11,10 @@ else:
     prefix = 'lib'
     ext = 'so'
 
-lib = cdll.LoadLibrary('target/debug/{}rustid.{}'.format(prefix, ext))
-double_input = lib.double_input
+lib = cdll.LoadLibrary('target/debug/{}ffi_rustid.{}'.format(prefix, ext))
+hitung = lib.hitung
 
 input = 4
-output = double_input(input)
+output = hitung(input)
 print('{} * 2 = {}'.format(input, output))
 

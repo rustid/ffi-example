@@ -1,0 +1,22 @@
+{
+  "name": "ffi-rustid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustid/ffi-example.git"
+  },
+  "author": "anak10thn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rustid/ffi-example/issues"
+  },
+  "homepage": "https://github.com/rustid/ffi-example#readme",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  }
+}
