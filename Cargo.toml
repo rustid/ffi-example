@@ -1,0 +1,10 @@
+[package]
+name = "ffi"
+version = "0.1.0"
+authors = ["anak10thn <anak10thn@gmail.com>"]
+
+[lib]
+name = "ffi_rustid"
+crate-type = ["dylib"]
+
+[dependencies]
